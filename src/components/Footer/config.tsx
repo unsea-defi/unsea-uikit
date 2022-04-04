@@ -94,7 +94,7 @@ export const socials = [
   {
     label: "Discord",
     icon: "Discord",
-    href: "#",
+    href: "https://discord.gg/Hkp5QdPpcV",
   },
   {
     label: "Twitter",
@@ -114,12 +114,12 @@ export const socials = [
   {
     label: "Instagram",
     icon: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/unc.io/",
   },
   {
     label: "Github",
     icon: "Github",
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/unsea-defi",
   },
 
 ];
