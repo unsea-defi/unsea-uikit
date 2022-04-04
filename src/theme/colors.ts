@@ -83,7 +83,7 @@ export const darkColors: Colors = {
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-    special: "linear-gradient(70deg, rgba(66,36,82,1) 0%, rgba(74,36,75,1) 46%, rgba(118,35,35,1) 100%)",
+    special: "linear-gradient(70deg,rgb(66 36 82 / 85%) 0%,rgb(74 36 75 / 74%) 46%,rgb(118 35 35 / 74%) 100%)",
     subtine: "linear-gradient(70deg, rgb(54 27 68) 0%, rgba(74,36,75,1) 46%, rgb(78 27 38) 100%)"
   },
 };
