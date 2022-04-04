@@ -739,8 +739,8 @@ var Icon$1g = function (props) {
 
 var Logo$2 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 309 60" }, props),
-        React__default.createElement("image", { width: "309px", height: "60px", href: "/images/custom/site-logo.png" })));
+    return (React__default.createElement(Svg, __assign({ viewBox: "0 0 309 90" }, props),
+        React__default.createElement("image", { width: "309px", height: "90px", href: "/images/custom/site-logo.png" })));
 };
 var LogoWithTextIcon = React__default.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
@@ -2829,7 +2829,7 @@ var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), 
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
         violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-        special: "linear-gradient(70deg, rgba(66,36,82,1) 0%, rgba(74,36,75,1) 46%, rgba(118,35,35,1) 100%)",
+        special: "linear-gradient(70deg,rgb(66 36 82 / 85%) 0%,rgb(74 36 75 / 74%) 46%,rgb(118 35 35 / 74%) 100%)",
         subtine: "linear-gradient(70deg, rgb(54 27 68) 0%, rgba(74,36,75,1) 46%, rgb(78 27 38) 100%)"
     } });
 
@@ -4708,7 +4708,7 @@ var socials = [
     {
         label: "Discord",
         icon: "Discord",
-        href: "#",
+        href: "https://discord.gg/Hkp5QdPpcV",
     },
     {
         label: "Twitter",
@@ -4728,12 +4728,12 @@ var socials = [
     {
         label: "Instagram",
         icon: "Instagram",
-        href: "#",
+        href: "https://www.instagram.com/unc.io/",
     },
     {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/pancakeswap/",
+        href: "https://github.com/unsea-defi",
     },
 ];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
@@ -4825,7 +4825,7 @@ var MenuItems = function (_a) {
 };
 
 var blink = keyframes(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"], ["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"])));
-var StyledLink = styled(Link$1)(templateObject_2$4 || (templateObject_2$4 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 38px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 130px;\n    // display: none;\n    // ", " {\n    //   display: block;\n    // }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 38px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 130px;\n    // display: none;\n    // ", " {\n    //   display: block;\n    // }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled(Link$1)(templateObject_2$4 || (templateObject_2$4 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 38px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 150px;\n    // display: none;\n    // ", " {\n    //   display: block;\n    // }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 38px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 150px;\n    // display: none;\n    // ", " {\n    //   display: block;\n    // }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
