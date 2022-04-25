@@ -4747,7 +4747,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://twitter.com/coin_utility?t=0OcFB69ilMXDf6Yg-ULrGQ&s=09",
+        href: "https://twitter.com/coin_utility",
     },
     {
         label: "Telegram",
@@ -4757,17 +4757,19 @@ var socials = [
     // {
     //   label: "Reddit",
     //   icon: "Reddit",
-    //   href: "#",
+    //   href: "https://www.reddit.com/user/UtilityNFTCoin",
     // },
+    // https://www.linkedin.com/in/utility-nft-coin-936007234/
+    // https://www.facebook.com/Utility-NFT-Coin-100195059293058
     {
         label: "Instagram",
         icon: "Instagram",
-        href: "https://www.instagram.com/unc.io/",
+        href: "https://www.instagram.com/utilitynftcoin/",
     },
     {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/unsea-defi",
+        href: "https://github.com/unseaofficial",
     },
 ];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
