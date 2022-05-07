@@ -4809,7 +4809,7 @@ var MenuItem = function (_a) {
                         })));
                 }))),
             React__default.createElement(Flex, { flexDirection: ["column", null, "row"], alignItems: "center", justifyContent: "center" },
-                React__default.createElement(Text, { fontSize: "14px", textAlign: "center" }, "@Copyright 2022 Utility, llca All Right referved."),
+                React__default.createElement(Text, { fontSize: "14px", textAlign: "center" }, "@Copyright 2022 Utility, llca All Right reserved."),
                 React__default.createElement(Flex, null, policies.map(function (policy) { return (React__default.createElement(StyledPolicyItem, { href: policy.href }, policy.label)); }))))));
 };
 
