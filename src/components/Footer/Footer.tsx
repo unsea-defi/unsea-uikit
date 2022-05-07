@@ -82,7 +82,7 @@ const MenuItem: React.FC<FooterProps> = ({
           alignItems="center"
           justifyContent="center"
         >
-          <Text fontSize="14px" textAlign="center">@Copyright 2022 Utility, llca All Right referved.</Text>
+          <Text fontSize="14px" textAlign="center">@Copyright 2022 Utility, llca All Right reserved.</Text>
           <Flex>
             {
               policies.map((policy) => (
